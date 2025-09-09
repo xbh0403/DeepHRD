@@ -12,6 +12,14 @@ The pipeline consists of four main steps:
 
 ## Prerequisites
 
+### Clone Repository
+
+```bash
+# Clone the DeepHRD repository
+git clone https://github.com/alexandrovteam/DeepHRD.git
+cd DeepHRD
+```
+
 ### Environment Setup
 
 ```bash
