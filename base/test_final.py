@@ -89,7 +89,7 @@ def main ():
 	model=model.to(device)
 
 	if gpu_available:
-		ch = torch.load(args.model)
+		ch = torch.load(args.model, weights_only=False)
 	else:
 		ch = torch.load(args.model, map_location=torch.device('cpu'))
 	model.load_state_dict(ch['state_dict'])

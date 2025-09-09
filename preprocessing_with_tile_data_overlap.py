@@ -1449,6 +1449,7 @@ def preprocess_images (project, projectPath, max_cpu, save_top_tiles=True, save_
 	TISSUE_HIGH_THRESH = 80
 	TISSUE_LOW_THRESH = 10
 	RESOLUTION = '5x'
+	# RESOLUTION = '20x'
 	ROW_TILE_SIZE = 256
 	COL_TILE_SIZE = 256
 	#ROW_TILE_SIZE = 224

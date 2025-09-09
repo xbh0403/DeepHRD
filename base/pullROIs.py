@@ -112,7 +112,7 @@ def multiprocess_collectTiles (libraryfile, featureVectorsPath, predictionData, 
 
 	# Read in the feature vectors and the original library file
 	featureVectors = pd.read_csv(featureVectorsPath, sep="\t", header=None, na_filter= False, index_col=[1,0]).fillna(0)
-	lib = torch.load(libraryfile)
+	lib = torch.load(libraryfile, weights_only=False)
 
 	trainData20x = {}
 	trainData20x['slides'] = []

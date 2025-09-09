@@ -357,7 +357,7 @@ class MILdataset ():
 		'''
 		Initializes all class atributes.
 		'''
-		lib = torch.load(libraryfile)
+		lib = torch.load(libraryfile, weights_only=False)
 
 		grid = []
 		slideIDX = []

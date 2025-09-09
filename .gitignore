@@ -10,5 +10,22 @@
 # Hidden files and directories
 *.DS_Store
 
+__pycache__/
+.claude/
+.ipynb_checkpoints/
+
+CLAUDE.md
+
 # Models in local repo
-./models/
+models/
+examples/
+examples_custom_tiles_5x/
+examples_custom_tiles_20x/
+examples_original/
+slides_20x/
+slides_5x/
+plotting/
+slides*/
+visualizations*/
+
+*.txt
